@@ -63,4 +63,4 @@ jobs:
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B77BF42C0EDB417CA99243AD7AFE67AC }}
 
       - name: starting web app
-        run: python main.py
+        run: python app.py
