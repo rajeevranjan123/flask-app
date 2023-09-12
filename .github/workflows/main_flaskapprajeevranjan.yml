@@ -61,9 +61,3 @@ jobs:
           app-name: 'flaskapprajeevranjan'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B77BF42C0EDB417CA99243AD7AFE67AC }}
-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-        
-      - name: starting web app
-        run: python app.py
