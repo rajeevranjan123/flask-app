@@ -1,2 +1,2 @@
 # flask-app
-testing flask app on azure
+testing flask application for simple ci/cd pipleline.
